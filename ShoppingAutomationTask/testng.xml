@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testPackage.taskTest">
+      <methods>
+      <include name="navigateToUrl"></include>
+      <include name="clickSignIn"></include>
+      <include name="clickSignUp"></include>
+      <include name="createNewUser"></include>
+      <include name="assertAccountAuthenticated"></include>
+      <include name="selectBlouseWomen"></include>
+      <include name="addBlouseToCart"></include>
+      <include name="carryCheckoutProcess"></include>
+      <include name="getOrderRef"></include>
+      <include name="goToOrdersPage"></include>
+      <include name="assertOrderFromOrderHistory"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

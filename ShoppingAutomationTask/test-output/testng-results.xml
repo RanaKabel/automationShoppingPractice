@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-27T20:31:00 EET" name="Suite" finished-at="2021-11-27T20:31:32 EET" duration-ms="32428">
+    <groups>
+    </groups>
+    <test started-at="2021-11-27T20:31:00 EET" name="Test" finished-at="2021-11-27T20:31:32 EET" duration-ms="32428">
+      <class name="testPackage.taskTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:00 EET" name="beforeClass" finished-at="2021-11-27T20:31:03 EET" duration-ms="3090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="navigateToUrl()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:03 EET" name="navigateToUrl" finished-at="2021-11-27T20:31:07 EET" duration-ms="4221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUrl -->
+        <test-method signature="clickSignIn()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:07 EET" name="clickSignIn" finished-at="2021-11-27T20:31:09 EET" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignIn -->
+        <test-method signature="clickSignUp()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:09 EET" name="clickSignUp" finished-at="2021-11-27T20:31:09 EET" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignUp -->
+        <test-method signature="createNewUser()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:09 EET" name="createNewUser" finished-at="2021-11-27T20:31:13 EET" duration-ms="4193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method signature="assertAccountAuthenticated()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:13 EET" name="assertAccountAuthenticated" finished-at="2021-11-27T20:31:13 EET" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAccountAuthenticated -->
+        <test-method signature="selectBlouseWomen()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:13 EET" name="selectBlouseWomen" finished-at="2021-11-27T20:31:16 EET" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBlouseWomen -->
+        <test-method signature="addBlouseToCart()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:16 EET" name="addBlouseToCart" finished-at="2021-11-27T20:31:16 EET" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBlouseToCart -->
+        <test-method signature="carryCheckoutProcess()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:16 EET" name="carryCheckoutProcess" finished-at="2021-11-27T20:31:29 EET" duration-ms="13344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carryCheckoutProcess -->
+        <test-method signature="getOrderRef()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:29 EET" name="getOrderRef" finished-at="2021-11-27T20:31:29 EET" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderRef -->
+        <test-method signature="goToOrdersPage()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:29 EET" name="goToOrdersPage" finished-at="2021-11-27T20:31:32 EET" duration-ms="2317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToOrdersPage -->
+        <test-method signature="assertOrderFromOrderHistory()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:32 EET" name="assertOrderFromOrderHistory" finished-at="2021-11-27T20:31:32 EET" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertOrderFromOrderHistory -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testPackage.taskTest@6b927fb]" started-at="2021-11-27T20:31:32 EET" name="afterClass" finished-at="2021-11-27T20:31:32 EET" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testPackage.taskTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

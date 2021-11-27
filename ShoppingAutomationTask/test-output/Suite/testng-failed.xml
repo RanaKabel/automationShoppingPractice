@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testPackage.taskTest">
+        <methods>
+          <include name="clickSignUp"/>
+          <include name="goToOrdersPage"/>
+          <include name="selectBlouseWomen"/>
+          <include name="navigateToUrl"/>
+          <include name="createNewUser"/>
+          <include name="carryCheckoutProcess"/>
+          <include name="clickSignIn"/>
+          <include name="addBlouseToCart"/>
+          <include name="getOrderRef"/>
+          <include name="assertAccountAuthenticated"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="assertOrderFromOrderHistory"/>
+        </methods>
+      </class> <!-- testPackage.taskTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
